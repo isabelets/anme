@@ -1,0 +1,9 @@
+<div><div class="skills">
+    <h3>Skills</h3>
+    <div class="description content">
+        <div *ngFor="let skill of hardSkills" class="skill">
+            <img src={{skill.skill}} alt={{skill.alt}} />
+            <span *ngIf="skill.level">{{skill.level}}</span>
+        </div>
+    </div>    
+</div>

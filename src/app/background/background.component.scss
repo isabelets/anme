@@ -1,0 +1,48 @@
+ul {
+    margin-bottom: 0.6rem;
+}
+
+.backgrounds {
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.technologies {
+    opacity: 80%;
+}
+
+.technology {
+    width: 32px;
+    display: inline-block;
+}
+
+.content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+}
+
+.when {
+    font-size: 1rem;
+}
+
+.job {
+    &.description {
+        color: #ffcdaa;
+    }
+}
+
+@media (min-width: 768px) {
+    .backgrounds {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .background {
+        width: 50%;
+    }
+}

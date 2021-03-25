@@ -1,0 +1,11 @@
+<div class="socials">
+  <div class="social" *ngFor="let social of socials">
+      <ul>
+          <li>
+              <a href={{social.link}} target="_blank">
+                  <img src={{social.img}} alt={{social.alt}} />
+              </a>
+          </li>
+      </ul>
+  </div>
+</div>

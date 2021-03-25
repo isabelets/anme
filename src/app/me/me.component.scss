@@ -1,0 +1,26 @@
+.avatar {
+  background-image: url(/mean/assets/data/img/eu-circle-border.webp);
+  padding-bottom: 55%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interests {
+  max-width: 70%;
+  margin: auto;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .avatar{
+    padding-bottom: 15%;
+  }
+}

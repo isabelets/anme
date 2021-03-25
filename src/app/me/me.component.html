@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="avatar"></div>
+    <div class="content">
+        <h1>Isabele</h1>
+        <div>
+            <ul>
+                <li>FullStack Developer</li>
+                <li>Brazil, São Paulo</li>
+                <li>26 years old</li>
+            </ul>
+
+            <div class="interests">
+                <span *ngFor="let interest of interests">
+                    {{interest.emoji}} {{interest.interest}}
+                </span>
+            </div>
+
+
+            <app-social></app-social>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="container">
+  <h3>Background</h3>
+
+  <div class="backgrounds">
+
+    <div *ngFor="let background of backgrounds" class="background">
+      <div class="content">
+        <small class="when">
+          {{background.where}} | {{background.dateFrom}} - {{background.dateTo}}
+        </small>
+        <h5>{{background.position}}</h5>
+        <div class="job description">
+          <ul *ngFor="let description of background.description">
+            <li>{{description}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>

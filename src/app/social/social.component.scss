@@ -1,0 +1,15 @@
+img{
+    max-width: 48px;
+    margin: 0.4em;
+}
+.social{
+    &:hover{
+        transform: scale(1.5);
+    }
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
