@@ -13,19 +13,19 @@ export const BACKGROUNDS = [
         dateFrom: 'feb 2019',
         dateTo: 'now',
         where: 'B4A Group',    
-        technologies:["/mean/assets/data/icones/adobexd.webp", 
-            "/mean/assets/data/icones/aws.png",
+        technologies:["/anme/assets/data/icones/adobexd.webp", 
+            "/anme/assets/data/icones/aws.png",
             
-            "/mean/assets/data/icones/css3.png",
-            "/mean/assets/data/icones/git.png",
-            "/mean/assets/data/icones/html5.png",
-            "/mean/assets/data/icones/java.png",
-            "/mean/assets/data/icones/javascript.png",
-            "/mean/assets/data/icones/spring.png",
-            "/mean/assets/data/icones/react.png",
-            "/mean/assets/data/icones/sqlserver.png",
-            "/mean/assets/data/icones/sass.png",
-            "/mean/assets/data/icones/salesforce.png",
+            "/anme/assets/data/icones/css3.png",
+            "/anme/assets/data/icones/git.png",
+            "/anme/assets/data/icones/html5.png",
+            "/anme/assets/data/icones/java.png",
+            "/anme/assets/data/icones/javascript.png",
+            "/anme/assets/data/icones/spring.png",
+            "/anme/assets/data/icones/react.png",
+            "/anme/assets/data/icones/sqlserver.png",
+            "/anme/assets/data/icones/sass.png",
+            "/anme/assets/data/icones/salesforce.png",
         ],
         
     },
@@ -40,8 +40,8 @@ export const BACKGROUNDS = [
         dateFrom: 'abr 2018',
         dateTo: 'set 2018',
         where: 'Stefanini Scala',
-        technologies:["/mean/assets/data/icones/java.png",
-            "/mean/assets/data/icones/javascript.png",
+        technologies:["/anme/assets/data/icones/java.png",
+            "/anme/assets/data/icones/javascript.png",
         ]
     },
     {
@@ -55,8 +55,8 @@ export const BACKGROUNDS = [
         dateFrom: 'jan 2018',
         dateTo: 'abr 2018',
         where: 'Accenture',
-        technologies:["/mean/assets/data/icones/java.png",
-            "/mean/assets/data/icones/plsql.png",
+        technologies:["/anme/assets/data/icones/java.png",
+            "/anme/assets/data/icones/plsql.png",
         ]
     },
     {
@@ -74,6 +74,6 @@ export const BACKGROUNDS = [
         dateFrom: 'mai 2014',
         dateTo: 'jan 2018',
         where: 'Trust Consultores',
-        technologies:["/mean/assets/data/icones/plsql.png"]
+        technologies:["/anme/assets/data/icones/plsql.png"]
     }
 ]
